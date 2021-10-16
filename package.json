@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --pasWithNoTests",
-    "test:staged": "jest --pasWithNoTests"
+    "test": "jest --passWithNoTests --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "Gabriel Marioto",
