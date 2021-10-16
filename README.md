@@ -17,3 +17,9 @@ Está sendo utilizado a biblioteca git-commit-msg-linter para validar os commits
 > test: Testes unitários. <br>
 
 Então, em vez de utilizar o comando git commit -m "add npm", eu utilizo git commit -m "chore: add npm".
+
+### comandos git <br>
+
+> git commit --amend --no-edit <br>
+
+Serve para juntar o commit anterior com o commit atual, caso tenha esquecido de alterar algum arquivo e não queira dar commit duplicado.
