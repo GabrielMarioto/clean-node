@@ -6,13 +6,14 @@ Projeto destinado ao curso de NodeJS - Clean Architecture + Solid + TDD + Typesc
 
 > type: description <br>
 
-Não é recomendado letras maiusculas, pontos finais e verbos no passado.
+Não é recomendado letras maiusculas, pontos finais e verbos no passado. <br>
+Está sendo utilizado a biblioteca git-commit-msg-linter para validar os commits realizados.
 
 ### exemplos
 
 > fix: Algum bug fixado. <br>
 > feat: Alguma feature nova. <br>
 > chore: Adicionado configuração/biblioteca ao projeto. <br>
-> test: Testes Unitários. <br>
+> test: Testes unitários. <br>
 
 Então, em vez de utilizar o comando git commit -m "add npm", eu utilizo git commit -m "chore: add npm".
