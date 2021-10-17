@@ -20,7 +20,9 @@ export class SignUpController implements IController {
         return badRequest(new MissingParamError(field))
       }
     }
-    if (!this.emailValidator.isValid(httpRequest.body.email)) {
+    const isValid = this.emailValidator.isValid(httpRequest.body.email)
+
+    if (!isValid) {
       return badRequest(new InvalidParamError('email'))
     }
   }
