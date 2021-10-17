@@ -1,7 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { IHttpRequest, IHttpResponse } from '../protocols/http'
-import { IController } from '../protocols/controller'
-import { IEmailValidator } from '../protocols/emailValidator'
+import { IHttpRequest, IHttpResponse, IController, IEmailValidator } from '../protocols'
 import { MissingParamError, InvalidParamError } from '../errors/'
 import { badRequest, serverError } from '../helpers/http-helper'
 
