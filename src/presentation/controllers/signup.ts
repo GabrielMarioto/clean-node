@@ -1,11 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { IHttpRequest, IHttpResponse } from '../protocols/http'
 import { IController } from '../protocols/controller'
-import { MissingParamError } from '../errors/missing-param-error'
-import { badRequest, serverError } from '../helpers/http-helper'
 import { IEmailValidator } from '../protocols/emailValidator'
-import { InvalidParamError } from '../errors/invalid-param-error'
-import { ServerError } from '../errors/server-error'
+import { MissingParamError, InvalidParamError } from '../errors/'
+import { badRequest, serverError } from '../helpers/http-helper'
 
 export class SignUpController implements IController {
   private readonly emailValidator: IEmailValidator
